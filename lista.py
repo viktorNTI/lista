@@ -8,5 +8,5 @@ while val !=5:
     except: 
         print("Vänligen tryck (1), (2), (3) eller (4)")
     if val == 1: 
-        
+        f open 
 
