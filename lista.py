@@ -1,4 +1,4 @@
-import random
+import os, random, time
 
 val = 0
 meddelande = " "
@@ -21,5 +21,8 @@ while val !=5:
         f.write(meddelande)
         f.close()
     
-    elif val == 3: 
+    elif val == 3:
+        f = open('log.txt', 'w+')
+        
+
 
